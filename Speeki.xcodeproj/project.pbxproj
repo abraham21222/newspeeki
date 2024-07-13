@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB49E2492C3BAC680079CBB3 /* screen_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E2482C3BAC680079CBB3 /* screen_5.swift */; };
+		EB49E24B2C3BACFF0079CBB3 /* screen_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E24A2C3BACFF0079CBB3 /* screen_6.swift */; };
+		EB49E24E2C3BCD500079CBB3 /* screen_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E24D2C3BCD500079CBB3 /* screen_7.swift */; };
+		EB49E2502C3BCD580079CBB3 /* screen_8.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E24F2C3BCD580079CBB3 /* screen_8.swift */; };
+		EB49E2522C3BCD600079CBB3 /* screen_9.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E2512C3BCD600079CBB3 /* screen_9.swift */; };
+		EB49E2542C3BCD680079CBB3 /* screen_10.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E2532C3BCD680079CBB3 /* screen_10.swift */; };
+		EB49E2562C3BCD700079CBB3 /* screen_11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E2552C3BCD700079CBB3 /* screen_11.swift */; };
+		EB49E2582C3BCD7A0079CBB3 /* screen_12.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E2572C3BCD7A0079CBB3 /* screen_12.swift */; };
+		EB49E25C2C3BD14C0079CBB3 /* screen_13.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E25B2C3BD14C0079CBB3 /* screen_13.swift */; };
+		EB49E25E2C3BD1570079CBB3 /* screen_14.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E25D2C3BD1570079CBB3 /* screen_14.swift */; };
+		EB49E2602C3BD1600079CBB3 /* screen_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E25F2C3BD1600079CBB3 /* screen_15.swift */; };
+		EB49E2682C3BD5700079CBB3 /* omboarding_slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E2672C3BD5700079CBB3 /* omboarding_slider.swift */; };
+		EB49E26C2C3BD5C50079CBB3 /* color_extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E26B2C3BD5C50079CBB3 /* color_extensions.swift */; };
+		EB49E26E2C3BD6080079CBB3 /* onboarding_svg_size_modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E26D2C3BD6080079CBB3 /* onboarding_svg_size_modifier.swift */; };
+		EB49E2712C3BD63E0079CBB3 /* progress_bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E2702C3BD63E0079CBB3 /* progress_bar.swift */; };
+		EB49E2742C3BDD800079CBB3 /* screen_16.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49E2732C3BDD800079CBB3 /* screen_16.swift */; };
+		EB68A64C2C344E050002B6B9 /* screen_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB68A64B2C344E050002B6B9 /* screen_1.swift */; };
+		EB711E722C3C839B0056BF61 /* screen_17.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB711E712C3C839B0056BF61 /* screen_17.swift */; };
+		EB711E742C3C83B30056BF61 /* screen_18.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB711E732C3C83B30056BF61 /* screen_18.swift */; };
+		EB711E762C3C83CF0056BF61 /* screen_19.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB711E752C3C83CF0056BF61 /* screen_19.swift */; };
+		EB711E782C3C83EB0056BF61 /* screen_20.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB711E772C3C83EB0056BF61 /* screen_20.swift */; };
+		EB711E7A2C3C83F50056BF61 /* screen_21.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB711E792C3C83F50056BF61 /* screen_21.swift */; };
+		EB711E7C2C3C84020056BF61 /* screen_22.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB711E7B2C3C84020056BF61 /* screen_22.swift */; };
+		EB711E7F2C3C841A0056BF61 /* screen_23.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB711E7E2C3C841A0056BF61 /* screen_23.swift */; };
+		EB711E812C3C842F0056BF61 /* screen_24.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB711E802C3C842F0056BF61 /* screen_24.swift */; };
+		EB711E832C3C843C0056BF61 /* screen_25.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB711E822C3C843C0056BF61 /* screen_25.swift */; };
+		EB7EA8A22C36690700EA8860 /* screen_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7EA8A12C36690700EA8860 /* screen_2.swift */; };
+		EB7EA8A42C36803D00EA8860 /* screen_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7EA8A32C36803D00EA8860 /* screen_3.swift */; };
+		EB7EA8A62C38D67400EA8860 /* WomanFormal_Maya.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB7EA8A52C38D67200EA8860 /* WomanFormal_Maya.usdz */; };
+		EB7EA8B22C38DCDF00EA8860 /* screen_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7EA8B12C38DCDF00EA8860 /* screen_4.swift */; };
+		EB9ECA6E2C20CC04009B7223 /* SpeekiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9ECA6D2C20CC04009B7223 /* SpeekiApp.swift */; };
+		EB9ECA702C20CC04009B7223 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9ECA6F2C20CC04009B7223 /* ContentView.swift */; };
+		EB9ECA722C20CC06009B7223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9ECA712C20CC06009B7223 /* Assets.xcassets */; };
+		EB9ECA752C20CC06009B7223 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9ECA742C20CC06009B7223 /* Preview Assets.xcassets */; };
+		EB9ECA7C2C2E8288009B7223 /* Karokee.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9ECA7B2C2E8287009B7223 /* Karokee.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB49E2482C3BAC680079CBB3 /* screen_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_5.swift; sourceTree = "<group>"; };
+		EB49E24A2C3BACFF0079CBB3 /* screen_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_6.swift; sourceTree = "<group>"; };
+		EB49E24D2C3BCD500079CBB3 /* screen_7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_7.swift; sourceTree = "<group>"; };
+		EB49E24F2C3BCD580079CBB3 /* screen_8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_8.swift; sourceTree = "<group>"; };
+		EB49E2512C3BCD600079CBB3 /* screen_9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_9.swift; sourceTree = "<group>"; };
+		EB49E2532C3BCD680079CBB3 /* screen_10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_10.swift; sourceTree = "<group>"; };
+		EB49E2552C3BCD700079CBB3 /* screen_11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_11.swift; sourceTree = "<group>"; };
+		EB49E2572C3BCD7A0079CBB3 /* screen_12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_12.swift; sourceTree = "<group>"; };
+		EB49E25B2C3BD14C0079CBB3 /* screen_13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_13.swift; sourceTree = "<group>"; };
+		EB49E25D2C3BD1570079CBB3 /* screen_14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_14.swift; sourceTree = "<group>"; };
+		EB49E25F2C3BD1600079CBB3 /* screen_15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_15.swift; sourceTree = "<group>"; };
+		EB49E2672C3BD5700079CBB3 /* omboarding_slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = omboarding_slider.swift; path = ../../../../../Desktop/omboarding_slider.swift; sourceTree = "<group>"; };
+		EB49E26B2C3BD5C50079CBB3 /* color_extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = color_extensions.swift; path = ../../../../Desktop/color_extensions.swift; sourceTree = "<group>"; };
+		EB49E26D2C3BD6080079CBB3 /* onboarding_svg_size_modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = onboarding_svg_size_modifier.swift; path = ../../../../../Desktop/onboarding_svg_size_modifier.swift; sourceTree = "<group>"; };
+		EB49E2702C3BD63E0079CBB3 /* progress_bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = progress_bar.swift; path = ../../../../../Desktop/progress_bar.swift; sourceTree = "<group>"; };
+		EB49E2722C3BD6870079CBB3 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		EB49E2732C3BDD800079CBB3 /* screen_16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = screen_16.swift; path = ../../../../../Desktop/screen_16.swift; sourceTree = "<group>"; };
+		EB68A64B2C344E050002B6B9 /* screen_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_1.swift; sourceTree = "<group>"; };
+		EB68A64D2C35A2A50002B6B9 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../Downloads/Poppins (1)/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		EB68A64E2C35A2B40002B6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EB711E712C3C839B0056BF61 /* screen_17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = screen_17.swift; path = ../../../../../Desktop/screen_17.swift; sourceTree = "<group>"; };
+		EB711E732C3C83B30056BF61 /* screen_18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = screen_18.swift; path = ../../../../../Desktop/screen_18.swift; sourceTree = "<group>"; };
+		EB711E752C3C83CF0056BF61 /* screen_19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = screen_19.swift; path = ../../../../../Desktop/screen_19.swift; sourceTree = "<group>"; };
+		EB711E772C3C83EB0056BF61 /* screen_20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = screen_20.swift; path = ../../../../../Desktop/screen_20.swift; sourceTree = "<group>"; };
+		EB711E792C3C83F50056BF61 /* screen_21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = screen_21.swift; path = ../../../../../Desktop/screen_21.swift; sourceTree = "<group>"; };
+		EB711E7B2C3C84020056BF61 /* screen_22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = screen_22.swift; path = ../../../../../Desktop/screen_22.swift; sourceTree = "<group>"; };
+		EB711E7E2C3C841A0056BF61 /* screen_23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = screen_23.swift; path = ../../../../../Desktop/screen_23.swift; sourceTree = "<group>"; };
+		EB711E802C3C842F0056BF61 /* screen_24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = screen_24.swift; path = ../../../../../Desktop/screen_24.swift; sourceTree = "<group>"; };
+		EB711E822C3C843C0056BF61 /* screen_25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = screen_25.swift; path = ../../../../../Desktop/screen_25.swift; sourceTree = "<group>"; };
+		EB711E842C41694B0056BF61 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../../Downloads/Poppins (2)/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		EB711E852C416B3D0056BF61 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../../Downloads/Poppins (2)/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		EB7EA8A12C36690700EA8860 /* screen_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_2.swift; sourceTree = "<group>"; };
+		EB7EA8A32C36803D00EA8860 /* screen_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_3.swift; sourceTree = "<group>"; };
+		EB7EA8A52C38D67200EA8860 /* WomanFormal_Maya.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = WomanFormal_Maya.usdz; path = ../../../../Documents/WomanFormal_Maya.usdz; sourceTree = "<group>"; };
+		EB7EA8B12C38DCDF00EA8860 /* screen_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen_4.swift; sourceTree = "<group>"; };
+		EB9ECA6A2C20CC04009B7223 /* Speeki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speeki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9ECA6D2C20CC04009B7223 /* SpeekiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeekiApp.swift; sourceTree = "<group>"; };
+		EB9ECA6F2C20CC04009B7223 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB9ECA712C20CC06009B7223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB9ECA742C20CC06009B7223 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB9ECA7B2C2E8287009B7223 /* Karokee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karokee.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB9ECA672C20CC04009B7223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB49E2622C3BD51C0079CBB3 /* onboarding_group_1 */ = {
+			isa = PBXGroup;
+			children = (
+				EB68A64B2C344E050002B6B9 /* screen_1.swift */,
+				EB7EA8A12C36690700EA8860 /* screen_2.swift */,
+				EB7EA8A32C36803D00EA8860 /* screen_3.swift */,
+				EB7EA8B12C38DCDF00EA8860 /* screen_4.swift */,
+			);
+			path = onboarding_group_1;
+			sourceTree = "<group>";
+		};
+		EB49E2642C3BD52D0079CBB3 /* onboarding_group_2 */ = {
+			isa = PBXGroup;
+			children = (
+				EB49E2482C3BAC680079CBB3 /* screen_5.swift */,
+				EB49E24A2C3BACFF0079CBB3 /* screen_6.swift */,
+				EB49E24D2C3BCD500079CBB3 /* screen_7.swift */,
+				EB49E24F2C3BCD580079CBB3 /* screen_8.swift */,
+				EB49E2512C3BCD600079CBB3 /* screen_9.swift */,
+				EB49E2532C3BCD680079CBB3 /* screen_10.swift */,
+				EB49E2552C3BCD700079CBB3 /* screen_11.swift */,
+				EB49E2572C3BCD7A0079CBB3 /* screen_12.swift */,
+				EB49E25B2C3BD14C0079CBB3 /* screen_13.swift */,
+				EB49E25D2C3BD1570079CBB3 /* screen_14.swift */,
+				EB49E25F2C3BD1600079CBB3 /* screen_15.swift */,
+			);
+			path = onboarding_group_2;
+			sourceTree = "<group>";
+		};
+		EB49E2652C3BD5360079CBB3 /* onboarding_group_3 */ = {
+			isa = PBXGroup;
+			children = (
+				EB49E2732C3BDD800079CBB3 /* screen_16.swift */,
+				EB711E712C3C839B0056BF61 /* screen_17.swift */,
+				EB711E732C3C83B30056BF61 /* screen_18.swift */,
+				EB711E752C3C83CF0056BF61 /* screen_19.swift */,
+				EB711E772C3C83EB0056BF61 /* screen_20.swift */,
+				EB711E792C3C83F50056BF61 /* screen_21.swift */,
+				EB711E7B2C3C84020056BF61 /* screen_22.swift */,
+			);
+			path = onboarding_group_3;
+			sourceTree = "<group>";
+		};
+		EB49E2662C3BD54C0079CBB3 /* onboarding_components */ = {
+			isa = PBXGroup;
+			children = (
+				EB49E2672C3BD5700079CBB3 /* omboarding_slider.swift */,
+				EB49E26D2C3BD6080079CBB3 /* onboarding_svg_size_modifier.swift */,
+				EB49E2702C3BD63E0079CBB3 /* progress_bar.swift */,
+			);
+			path = onboarding_components;
+			sourceTree = "<group>";
+		};
+		EB49E26A2C3BD5AD0079CBB3 /* general_components */ = {
+			isa = PBXGroup;
+			children = (
+				EB49E26B2C3BD5C50079CBB3 /* color_extensions.swift */,
+				EB711E852C416B3D0056BF61 /* Poppins-Light.ttf */,
+				EB711E842C41694B0056BF61 /* Poppins-Medium.ttf */,
+				EB49E2722C3BD6870079CBB3 /* Poppins-SemiBold.ttf */,
+			);
+			path = general_components;
+			sourceTree = "<group>";
+		};
+		EB68A64A2C344DF00002B6B9 /* Speeki_onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				EB711E7D2C3C84050056BF61 /* onboarding_group_4 */,
+				EB49E2652C3BD5360079CBB3 /* onboarding_group_3 */,
+				EB49E2642C3BD52D0079CBB3 /* onboarding_group_2 */,
+				EB49E2622C3BD51C0079CBB3 /* onboarding_group_1 */,
+				EB49E2662C3BD54C0079CBB3 /* onboarding_components */,
+				EB68A64D2C35A2A50002B6B9 /* Poppins-SemiBold.ttf */,
+			);
+			path = Speeki_onboarding;
+			sourceTree = "<group>";
+		};
+		EB711E7D2C3C84050056BF61 /* onboarding_group_4 */ = {
+			isa = PBXGroup;
+			children = (
+				EB711E7E2C3C841A0056BF61 /* screen_23.swift */,
+				EB711E802C3C842F0056BF61 /* screen_24.swift */,
+				EB711E822C3C843C0056BF61 /* screen_25.swift */,
+			);
+			path = onboarding_group_4;
+			sourceTree = "<group>";
+		};
+		EB9ECA612C20CC04009B7223 = {
+			isa = PBXGroup;
+			children = (
+				EB9ECA6C2C20CC04009B7223 /* Speeki */,
+				EB9ECA6B2C20CC04009B7223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB9ECA6B2C20CC04009B7223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB9ECA6A2C20CC04009B7223 /* Speeki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB9ECA6C2C20CC04009B7223 /* Speeki */ = {
+			isa = PBXGroup;
+			children = (
+				EB49E26A2C3BD5AD0079CBB3 /* general_components */,
+				EB68A64E2C35A2B40002B6B9 /* Info.plist */,
+				EB68A64A2C344DF00002B6B9 /* Speeki_onboarding */,
+				EB9ECA6D2C20CC04009B7223 /* SpeekiApp.swift */,
+				EB9ECA6F2C20CC04009B7223 /* ContentView.swift */,
+				EB9ECA7B2C2E8287009B7223 /* Karokee.swift */,
+				EB9ECA712C20CC06009B7223 /* Assets.xcassets */,
+				EB9ECA732C20CC06009B7223 /* Preview Content */,
+			);
+			path = Speeki;
+			sourceTree = "<group>";
+		};
+		EB9ECA732C20CC06009B7223 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB7EA8A52C38D67200EA8860 /* WomanFormal_Maya.usdz */,
+				EB9ECA742C20CC06009B7223 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB9ECA692C20CC04009B7223 /* Speeki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9ECA782C20CC06009B7223 /* Build configuration list for PBXNativeTarget "Speeki" */;
+			buildPhases = (
+				EB9ECA662C20CC04009B7223 /* Sources */,
+				EB9ECA672C20CC04009B7223 /* Frameworks */,
+				EB9ECA682C20CC04009B7223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speeki;
+			productName = Speeki;
+			productReference = EB9ECA6A2C20CC04009B7223 /* Speeki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB9ECA622C20CC04009B7223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EB9ECA692C20CC04009B7223 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EB9ECA652C20CC04009B7223 /* Build configuration list for PBXProject "Speeki" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB9ECA612C20CC04009B7223;
+			productRefGroup = EB9ECA6B2C20CC04009B7223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9ECA692C20CC04009B7223 /* Speeki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB9ECA682C20CC04009B7223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9ECA752C20CC06009B7223 /* Preview Assets.xcassets in Resources */,
+				EB9ECA722C20CC06009B7223 /* Assets.xcassets in Resources */,
+				EB7EA8A62C38D67400EA8860 /* WomanFormal_Maya.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9ECA662C20CC04009B7223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB49E2542C3BCD680079CBB3 /* screen_10.swift in Sources */,
+				EB711E762C3C83CF0056BF61 /* screen_19.swift in Sources */,
+				EB49E24B2C3BACFF0079CBB3 /* screen_6.swift in Sources */,
+				EB49E2682C3BD5700079CBB3 /* omboarding_slider.swift in Sources */,
+				EB711E812C3C842F0056BF61 /* screen_24.swift in Sources */,
+				EB49E2712C3BD63E0079CBB3 /* progress_bar.swift in Sources */,
+				EB68A64C2C344E050002B6B9 /* screen_1.swift in Sources */,
+				EB711E782C3C83EB0056BF61 /* screen_20.swift in Sources */,
+				EB9ECA7C2C2E8288009B7223 /* Karokee.swift in Sources */,
+				EB49E26E2C3BD6080079CBB3 /* onboarding_svg_size_modifier.swift in Sources */,
+				EB49E2602C3BD1600079CBB3 /* screen_15.swift in Sources */,
+				EB711E742C3C83B30056BF61 /* screen_18.swift in Sources */,
+				EB49E2742C3BDD800079CBB3 /* screen_16.swift in Sources */,
+				EB7EA8A22C36690700EA8860 /* screen_2.swift in Sources */,
+				EB49E2562C3BCD700079CBB3 /* screen_11.swift in Sources */,
+				EB711E7F2C3C841A0056BF61 /* screen_23.swift in Sources */,
+				EB711E832C3C843C0056BF61 /* screen_25.swift in Sources */,
+				EB49E25E2C3BD1570079CBB3 /* screen_14.swift in Sources */,
+				EB49E2522C3BCD600079CBB3 /* screen_9.swift in Sources */,
+				EB711E7A2C3C83F50056BF61 /* screen_21.swift in Sources */,
+				EB49E25C2C3BD14C0079CBB3 /* screen_13.swift in Sources */,
+				EB9ECA702C20CC04009B7223 /* ContentView.swift in Sources */,
+				EB49E26C2C3BD5C50079CBB3 /* color_extensions.swift in Sources */,
+				EB711E7C2C3C84020056BF61 /* screen_22.swift in Sources */,
+				EB7EA8B22C38DCDF00EA8860 /* screen_4.swift in Sources */,
+				EB711E722C3C839B0056BF61 /* screen_17.swift in Sources */,
+				EB49E24E2C3BCD500079CBB3 /* screen_7.swift in Sources */,
+				EB49E2502C3BCD580079CBB3 /* screen_8.swift in Sources */,
+				EB49E2582C3BCD7A0079CBB3 /* screen_12.swift in Sources */,
+				EB9ECA6E2C20CC04009B7223 /* SpeekiApp.swift in Sources */,
+				EB7EA8A42C36803D00EA8860 /* screen_3.swift in Sources */,
+				EB49E2492C3BAC680079CBB3 /* screen_5.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB9ECA762C20CC06009B7223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB9ECA772C20CC06009B7223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB9ECA792C20CC06009B7223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Speeki/Preview Content\"";
+				DEVELOPMENT_TEAM = WM659M6U6J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Speeki/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "to track emotions";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "for karokee style result";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..Speeki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB9ECA7A2C20CC06009B7223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Speeki/Preview Content\"";
+				DEVELOPMENT_TEAM = WM659M6U6J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Speeki/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "to track emotions";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "for karokee style result";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..Speeki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9ECA652C20CC04009B7223 /* Build configuration list for PBXProject "Speeki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9ECA762C20CC06009B7223 /* Debug */,
+				EB9ECA772C20CC06009B7223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9ECA782C20CC06009B7223 /* Build configuration list for PBXNativeTarget "Speeki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9ECA792C20CC06009B7223 /* Debug */,
+				EB9ECA7A2C20CC06009B7223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB9ECA622C20CC04009B7223 /* Project object */;
+}
